@@ -2,4 +2,4 @@
 
 echo "Hello from GitHub!"
 echo "This code was executed by Jenkins."
-echo "Continuous Integration is working!"
+echo "My first automatic CI pipeline!"
