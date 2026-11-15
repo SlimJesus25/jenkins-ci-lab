@@ -19,7 +19,7 @@ pipeline {
             steps {
                 echo 'Executing application tests...'
 
-                sh 'grep -q "Hello from GitHub!" app/hello.sh'
+                sh 'grep -q "MENSAGEM_QUE_NAO_EXISTE" app/hello.sh'
 
                 echo 'Tests passed!'
             }
