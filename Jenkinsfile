@@ -6,7 +6,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Preparing application...'
+                echo 'Preparing application - version 2...'
 
                 sh 'ls -la'
                 sh 'mkdir -p build'
